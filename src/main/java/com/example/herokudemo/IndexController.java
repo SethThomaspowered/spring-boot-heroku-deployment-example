@@ -10,4 +10,6 @@ public class IndexController {
     public String index() {
         return "Hello there! I'm running.";
     }
+    @GetMapping("/look")
+    public String look() { return "Here is an original page.";}
 }
